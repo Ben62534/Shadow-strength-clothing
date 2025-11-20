@@ -8,8 +8,7 @@ import { ContactPage } from "./components/ContactPage";
 import { CheckoutPage } from "./components/CheckoutPage";
 import { CartSheet, CartItem } from "./components/CartSheet";
 import { CookieConsent } from "./components/CookieConsent";
-import { Toaster } from "./components/ui/sonner";
-import { toast } from "sonner@2.0.3";
+import { Toaster } from "sonner";
 
 interface Product {
   id: number;
